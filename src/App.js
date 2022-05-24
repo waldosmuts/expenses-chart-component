@@ -32,9 +32,9 @@ const App = () => {
           <div
             className={`${currentDay === item.day ? "bg-cyan" : "bg-soft-red"} chart--bar w-full rounded relative flex justify-center hover:bg-opacity-60 cursor-pointer transition-all duration-300`}
             style={{ height: `${(item.amount / highestExpense) * 100}%` }}>
-            <aside
+            <div
               className="bg-dark-brown text-pale-orange absolute -top-[52px] font-dm-sans text-lg p-2 rounded z-10 opacity-0 transition duration-300"
-            >${item.amount}</aside>
+            >${item.amount}</div>
           </div>
         </div>
         <span
@@ -54,7 +54,7 @@ const App = () => {
         <Logo />
       </header>
       <main className="bg-pale-orange mt-4 md:mt-6 p-5 md:p-10 rounded-xl md:rounded-3xl w-full max-w-[550px] mx-auto">
-        <h2 className="font-dm-sans font-bold text-2xl md:text-[32px] text-dark-brown">Spending - Last 7 days</h2>
+        <h1 className="font-dm-sans font-bold text-2xl md:text-[32px] text-dark-brown">Spending - Last 7 days</h1>
         <div className="grid grid-cols-7 place-content-end gap-3 md:gap-5 mt-16">
           {chartElements}
         </div>
