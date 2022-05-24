@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub Repo]()
-- Live Site URL: [Live Preview]()
+- Solution URL: [GitHub Repo](https://github.com/waldosmuts/expenses-chart-component)
+- Live Site URL: [Live Preview](https://expenses-chart-fem.netlify.app/)
 
 ## My process
 
