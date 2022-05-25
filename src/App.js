@@ -33,7 +33,7 @@ const App = () => {
             className={`${currentDay === item.day ? "bg-cyan" : "bg-soft-red"} chart--bar w-full rounded relative flex justify-center hover:bg-opacity-60 cursor-pointer transition-all duration-300`}
             style={{ height: `${(item.amount / highestExpense) * 100}%` }}>
             <div
-              className="bg-dark-brown text-pale-orange absolute -top-[52px] font-dm-sans text-lg p-2 rounded z-10 opacity-0 transition duration-300"
+              className="bar--stats bg-dark-brown text-pale-orange absolute -top-[52px] font-dm-sans text-lg p-2 rounded z-10 opacity-0 transition duration-300"
             >${item.amount}</div>
           </div>
         </div>
